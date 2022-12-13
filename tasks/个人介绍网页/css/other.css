@@ -1,0 +1,82 @@
+.img {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-image: url("../img/bkg2.jpg");
+  background-size: cover;
+  z-index: -1;
+}
+main {
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+}
+main .container {
+  width: 70vw;
+  height: fit-content;
+  background: rgba(255, 255, 255, 0.1);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 5vh auto 5vh auto;
+  border-radius: 10px;
+  padding: 50px 0;
+  box-sizing: border-box;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.45);
+}
+main .container .title {
+  text-align: center;
+  color: snow;
+  font-size: 25px;
+}
+main .container .content {
+  margin: 40px 40px;
+  color: snow;
+  font-size: 25px;
+  font-family: '华文中宋', '宋体', '微软雅黑';
+  text-shadow: 2px 2px 2px black;
+  line-height: 35px;
+}
+main .container .content p {
+  text-indent: 50px;
+}
+main .container .content img {
+  width: 100%;
+  height: auto;
+}
+main .container .content a {
+  color: snow;
+}
+main .container .content a:hover {
+  color: #6ac0f1;
+}
+main .container .content .description {
+  font-size: 16px;
+  text-indent: 0;
+  display: flex;
+  justify-content: center;
+  alignment-baseline: top;
+  margin-bottom: 20px;
+  margin-top: -10px;
+}
+main .container .button {
+  display: flex;
+  justify-content: space-evenly;
+  user-select: none;
+}
+main .container .button .menu-btn,
+main .container .button .next-btn {
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  background-image: linear-gradient(to right, #6ac0f1, #0825ef);
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  line-height: 50px;
+}
+/*# sourceMappingURL=other.css.map */
